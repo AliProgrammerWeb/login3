@@ -1,0 +1,109 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+span{
+    font-size:2.5em;
+    font-weight: bold;
+}
+p{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.row{
+    
+    display: flex;
+    justify-content: center;
+    
+    margin: 100px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(154, 154, 154);
+    padding: 25px;
+    text-align: center;
+    max-width:400px;
+    border-radius: 10px;
+    font-size: 16px;
+    order: 1;
+    
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+.form form input{
+    height: 40px;
+    margin: 10px 0px;
+    font-size: 1.4em;
+}
+.form .button{
+   text-align: right;
+    width: 100%;
+}
+.form button{  
+    background-color: rgb(7, 81, 166);
+    color: white;
+    font-size: 1.3em;
+    width: 100px;
+    padding: 5px 5px;
+    padding-bottom: 10px;
+    border-radius:5px;
+}
+.form button:hover{   
+    cursor: pointer;
+}
+.table {
+    margin-left: 50px;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: middle;
+    order:2;
+}
+.table table{
+    border-collapse: collapse;
+}
+.table table thead{
+
+}
+
+.table table th,.table table td,.table table tr{
+    border-bottom: 1px solid #555;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 1.1em;
+}
+.table table tr:nth-child(even){
+    background-color: rgb(117, 251, 102);
+    color: white;
+}
+
+.table #add_btn{
+    background-color: rgb(204, 217, 12);
+    color: white;
+    font-size: 1em;
+    margin-top: 50px;
+    padding: 5px 15px;
+    padding-bottom: 10px;
+    border-radius:5px;
+    cursor: pointer;
+}
+.table button {
+    background-color: rgb(228, 85, 3);
+    margin-top: 1px;
+    color: white;
+    font-size: .8em;
+    padding: 5px;
+    justify-content: center;
+    border-radius:5px;
+    cursor: pointer;
+
+}
